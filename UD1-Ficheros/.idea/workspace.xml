@@ -5,24 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fdcfed9-ecf7-4493-b218-ee097cbf1c55" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../UD01-Ficheros/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD01-Ficheros/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD01-Ficheros/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD01-Ficheros/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD01-Ficheros/Clase/Clase.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD01-Ficheros/Clase/src/EjerciciosClase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD01-Ficheros/Clase/src/EscribirFichero.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD01-Ficheros/Clase/src/ReadFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD01-Ficheros/Clase/src/ejercicio1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD01-Ficheros/Clase/src/ejercicio2.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD01-Ficheros/Clase/src/prueba.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD01-Ficheros/UD01-Ficheros.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD01-Ficheros/out/production/Clase/EjerciciosClase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD01-Ficheros/out/production/Clase/EscribirFichero.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD01-Ficheros/out/production/Clase/ReadFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD01-Ficheros/out/production/Clase/ejercicio1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD01-Ficheros/out/production/Clase/ejercicio2.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD01-Ficheros/out/production/Clase/prueba.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea1/src/Ejercicios.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea1/src/Ejercicios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea1/src/productos-actualizados.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea1/src/productos-actualizados.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tarea1/Ejercicios.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tarea1/Ejercicios.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tarea1/productos-actualizados.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tarea1/productos-actualizados.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +47,8 @@
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/jaimedam/Escritorio/2DAM/Acceso-Datos/UD1-Ficheros",
-    "onboarding.tips.debug.path": "/home/jaimedam/Escritorio/2DAM/Acceso-Datos/UD1-Ficheros/Ejercicios/src/Main.java"
+    "onboarding.tips.debug.path": "/home/jaimedam/Escritorio/2DAM/Acceso-Datos/UD1-Ficheros/Ejercicios/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="TaskManager">

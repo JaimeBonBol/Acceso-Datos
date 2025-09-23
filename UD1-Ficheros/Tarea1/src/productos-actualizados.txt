@@ -1,4 +1,4 @@
-1;Teclado;28.05;
-2;Raton;16.5;
-3;Monitor;220.0;
-4;TV;538.989;
+1;Teclado;28.05
+2;Raton;16.5
+3;Monitor;220.0
+4;TV;538.989

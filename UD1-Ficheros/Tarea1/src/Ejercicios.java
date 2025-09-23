@@ -1,5 +1,6 @@
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Ejercicios {
@@ -239,26 +240,34 @@ public class Ejercicios {
 
             String linea;
             double precio;
+            ArrayList<String[]> estructura = new ArrayList<>();
             while ((linea = br.readLine()) != null){
-                String[] palabrasLinea = linea.split(";");
+                String[] palabraLista = linea.split(";");
+                estructura.add(palabraLista);
+            }
 
-                // Recogo el precio del producto, que se encuentra en la posición 2 del array de la línea separada.
+            // Recorro mi estructura, accedo a la posición 2 (precio) desntro del subArray para incrementarlo en un 10%.
+            for (String[] datosLinea : estructura){
+                // Recojo el precio del producto, que se encuentra en la posición 2 del array de la línea separada.
                 // Y se aumenta el 10%
-                precio = Double.parseDouble(palabrasLinea[2]);
+                precio = Double.parseDouble(datosLinea[2]);
                 double precioAumentado = precio + (precio * 0.1);
 
-                // Se asigna el valor del precio aumentado de nuevo a su posición en la línea.
-                palabrasLinea[2] = String.valueOf(precioAumentado);
+                datosLinea[2] = String.valueOf(precioAumentado);
+            }
 
-                // Se crea StringBuilder para almacenar los nuevos datos de la línea, aunque solo se ha modificado el precio.
-                StringBuilder sb = new StringBuilder();
-                for (String palabra : palabrasLinea){
-                    sb.append(palabra + ";");
-                }
-                sb.append("\n");
+            // Creo una línea para darle formato, recorro la estructura, y voy añadiendo a la lista los elementos del subArray
+            // de cada posición de mi estructura, es decir, el elemeto 0, 1, 2 del array que se encuentra en la posición 1
+            // de la estructura, etc.
+            for (int i = 0; i < estructura.size(); i++) {
+                String lineaMod ="";
 
-                // Se escribe ese StringBuilder con los datos actualizados en el nuevo doc.
-                bw.write(sb.toString());
+                lineaMod += estructura.get(i)[0] + ";";
+                lineaMod += estructura.get(i)[1] + ";";
+                lineaMod += estructura.get(i)[2] + "\n";
+
+
+                bw.write(lineaMod);
             }
 
             br.close();
