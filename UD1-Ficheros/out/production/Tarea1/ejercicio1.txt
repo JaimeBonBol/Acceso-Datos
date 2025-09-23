@@ -1,0 +1,11 @@
+1:Juan:20
+2:Pepe:24
+3:Luisa:20
+4:Marta:20
+5:Luis:20
+6:María:20
+7:Antonio:20
+8:Javier:20
+9:Josefa:20
+10:Carmen:20
+11:Daniel:20

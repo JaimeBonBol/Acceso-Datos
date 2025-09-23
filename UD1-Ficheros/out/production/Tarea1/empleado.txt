@@ -1,0 +1,5 @@
+Juan;25;Programador
+Ana;30;Diseñadora
+Jose;38;Albañil
+Laura;24;Profesora
+Antonio;43;Diseñador
