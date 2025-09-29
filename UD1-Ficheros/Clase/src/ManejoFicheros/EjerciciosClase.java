@@ -1,3 +1,5 @@
+package ManejoFicheros;
+
 import java.io.*;
 import java.util.Scanner;
 
@@ -38,7 +40,7 @@ public class EjerciciosClase {
     }
 
     public static void ejercicio1(){
-        String rutaArchivo = "Clase/src/ejercicio1.txt";
+        String rutaArchivo = "ManejoFicheros/ejercicio1.txt";
 
         try {
             BufferedWriter bw = new BufferedWriter(new FileWriter(rutaArchivo));
@@ -69,7 +71,7 @@ public class EjerciciosClase {
 
     public static void ejercicio2(){
         // Ficheros binarios simple
-        String rutaArchivo = "Clase/src/ejercicio2.bin";
+        String rutaArchivo = "ManejoFicheros/ejercicio2.bin";
 
         try {
             // Escritura de datos en binario.

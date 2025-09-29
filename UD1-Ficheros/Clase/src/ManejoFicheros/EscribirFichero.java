@@ -1,3 +1,5 @@
+package ManejoFicheros;
+
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
@@ -5,7 +7,7 @@ import java.io.IOException;
 
 public class EscribirFichero {
     public static void main(String[] args) {
-        String rutaArchivo = "Clase/src/prueba.txt";
+        String rutaArchivo = "ManejoFicheros/prueba.txt";
 
         File file = new File(rutaArchivo);
 

@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bb91f090-113d-4f8b-a57f-ad9122513af9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/UD01-Ficheros/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UD01-Ficheros/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UD01-Ficheros/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UD01-Ficheros/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UD01-Ficheros/Clase/Clase.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UD01-Ficheros/Clase/src/EjerciciosClase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UD01-Ficheros/Clase/src/EscribirFichero.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UD01-Ficheros/Clase/src/ReadFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UD01-Ficheros/Clase/src/ejercicio1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UD01-Ficheros/Clase/src/ejercicio2.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UD01-Ficheros/Clase/src/prueba.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UD01-Ficheros/UD01-Ficheros.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UD01-Ficheros/out/production/Clase/EjerciciosClase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UD01-Ficheros/out/production/Clase/EscribirFichero.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UD01-Ficheros/out/production/Clase/ReadFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UD01-Ficheros/out/production/Clase/ejercicio1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UD01-Ficheros/out/production/Clase/ejercicio2.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UD01-Ficheros/out/production/Clase/prueba.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Acceso-Datos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Acceso-Datos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD1-Ficheros/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UD1-Ficheros/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD1-Ficheros/Clase/src/EjerciciosClase.java" beforeDir="false" afterPath="$PROJECT_DIR$/UD1-Ficheros/Clase/src/ManejoFicheros/EjerciciosClase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD1-Ficheros/Clase/src/EscribirFichero.java" beforeDir="false" afterPath="$PROJECT_DIR$/UD1-Ficheros/Clase/src/ManejoFicheros/EscribirFichero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD1-Ficheros/Clase/src/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/UD1-Ficheros/Clase/src/ManejoFicheros/ReadFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD1-Ficheros/Clase/src/ejercicio1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/UD1-Ficheros/Clase/src/ManejoFicheros/ejercicio1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD1-Ficheros/Clase/src/ejercicio2.bin" beforeDir="false" afterPath="$PROJECT_DIR$/UD1-Ficheros/Clase/src/ManejoFicheros/ejercicio2.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD1-Ficheros/Clase/src/prueba.txt" beforeDir="false" afterPath="$PROJECT_DIR$/UD1-Ficheros/Clase/src/ManejoFicheros/prueba.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="333q4JRnfhIsD6Iq8WsMzUd33T4" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -44,7 +38,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/jaimedam/Escritorio/2DAM/Acceso-Datos/UD1-Ficheros"
+    "last_opened_file_path": "/home/jaimedam/Escritorio/2DAM/Acceso-Datos"
   }
 }]]></component>
   <component name="TaskManager">
