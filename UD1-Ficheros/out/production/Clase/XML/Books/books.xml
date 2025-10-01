@@ -1,0 +1,35 @@
+<library>
+    <book id="b1">
+        <title>Effective Java</title>
+<!--        <author>Joshua Bloch</author>-->
+        <authors>
+            <author>Joshua Bloch</author>
+            <author>Miguel de Cervantes</author>
+            <author>Federico García Lorca</author>
+        </authors>
+        <year>2018</year>
+        <price>45.90</price>
+    </book>
+    <book id="b2">
+        <title>Clean Code</title>
+<!--        <author>Robert C. Martin</author>-->
+        <authors>
+            <author>Julio Verne</author>
+            <author>Robert C. Martin</author>
+        </authors>
+        <year>2008</year>
+        <price>38.50</price>
+    </book>
+    <book id="b3">
+        <title>Head First Design Patterns</title>
+<!--        <author>Eric Freeman</author>-->
+        <authors>
+            <author>Eric Freeman</author>
+            <author>Miguel de Cervantes</author>
+            <author>Federico García Lorca</author>
+            <author>Federico García Lorca</author>
+        </authors>
+        <year>2020</year>
+        <price>29.99</price>
+    </book>
+</library>
