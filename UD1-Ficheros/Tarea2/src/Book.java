@@ -1,10 +1,13 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Book {
 
     private String id;
     private String isbn;
     private String title;
-    private String authors;
-    private String categories;
+    private List<String> authors;
+    private List<String> categories;
     private int year;
     private double price;
     private String currency;
@@ -34,8 +37,12 @@ public class Book {
         this.title = title;
     }
 
-    public String getAuthors() {
+    public List<String> getAuthors() {
         return authors;
+    }
+
+    public void setAuthors(List<String> authors) {
+        this.authors = authors;
     }
 
     public String getRole() {
@@ -46,15 +53,11 @@ public class Book {
         this.role = role;
     }
 
-    public void setAuthors(String authors) {
-        this.authors = authors;
-    }
-
-    public String getCategories() {
+    public List<String> getCategories() {
         return categories;
     }
 
-    public void setCategories(String categories) {
+    public void setCategories(List<String> categories) {
         this.categories = categories;
     }
 
@@ -82,6 +85,21 @@ public class Book {
         this.currency = currency;
     }
 
+    public void initializeListAuthors(){
+        authors = new ArrayList<>();
+    }
+
+    public void addAuthor(String author){
+        authors.add(author);
+    }
+
+    public void initializeListCategories(){
+        categories = new ArrayList<>();
+    }
+
+    public void addCategory(String category){
+        categories.add(category);
+    }
 
     @Override
     public String toString() {
