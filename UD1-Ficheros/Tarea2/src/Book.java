@@ -101,12 +101,24 @@ public class Book {
         categories.add(category);
     }
 
+    /**
+     * Métodos para devolver las listas de forma bonita(con coma pero sin poner la úlitma coma).
+     */
+
+    public String showAuthors(){
+        return String.join(", ", getAuthors());
+    }
+
+    public String showCategories(){
+        return String.join(", ", getCategories());
+    }
+
     @Override
     public String toString() {
         return "[" + id + "]" + " " + title + " (" + year + ")" +
                 "\nISBN: " + isbn +
-                "\nAutores: " + getAuthors() + " (" + role + ")" +
-                "\nCategorías: " + getCategories() +
+                "\nAutores: " + showAuthors() + " (" + role + ")" +
+                "\nCategorías: " + showCategories() +
                 "\nPrecio: " + price + " " + currency;
     }
 }
