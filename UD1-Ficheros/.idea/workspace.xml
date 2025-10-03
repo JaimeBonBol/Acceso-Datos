@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fdcfed9-ecf7-4493-b218-ee097cbf1c55" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clase/src/XML/Books/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/Clase/src/XML/Books/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clase/src/XML/Books/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Clase/src/XML/Books/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/jaimedam/Escritorio/2DAM/Programacion-Servicios-Procesos/UD1",
+    "last_opened_file_path": "/home/jaimedam/Escritorio/2DAM/Acceso-Datos/UD1-Ficheros",
     "onboarding.tips.debug.path": "/home/jaimedam/Escritorio/2DAM/Acceso-Datos/UD1-Ficheros/Ejercicios/src/Main.java",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java"
   }

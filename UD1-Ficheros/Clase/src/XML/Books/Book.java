@@ -6,7 +6,7 @@ public class Book {
     public String id;
     public String title;
     public String author;
-    public ArrayList<String> authors;
+    public ArrayList<String> authors  = new ArrayList<>();
     public int year;
     public double price;
 
@@ -58,11 +58,15 @@ public class Book {
         this.price = price;
     }
 
+    public String mostrarAutores(){
+        return String.join(", ", getAuthors() );
+    }
+
     @Override
     public String toString() {
         return String.format(
-                "Book{id=%s, title=%s, authors=%s, year=%d, price=%.2f}",
-                id, title, getAuthors(), year, price
+                "Book{id=%s; title=%s; authors=%s; year=%d; price=%.2f}",
+                id, title, mostrarAutores(), year, price
         );
     }
 }

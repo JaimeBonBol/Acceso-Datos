@@ -13,7 +13,7 @@ public class Main {
         String mode = args[0].toLowerCase();
         File xml = new File(args.length >= 2 ? args[1] : "books.xml");*/
 
-        String mode = "dom";
+        String mode = "sax";
         File xml = new File("Clase/src/XML/Books/books.xml");
 
         List<Book> books;
@@ -22,10 +22,10 @@ public class Main {
                 books = DomReader.read(xml);
                 System.out.println("[DOM] Libros:");
                 break;
-//            case "sax":
-//                books = SaxReader.read(xml);
-//                System.out.println("[SAX] Libros:");
-//                break;
+            case "sax":
+                books = SaxReader.read(xml);
+                System.out.println("[SAX] Libros:");
+                break;
 //            case "stax":
 //                books = StaxReader.read(xml);
 //                System.out.println("[StAX] Libros:");
