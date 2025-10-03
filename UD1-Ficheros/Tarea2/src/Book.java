@@ -13,6 +13,11 @@ public class Book {
     private String currency;
     private String role;
 
+    public Book(){
+        this.authors = new ArrayList<>();
+        this.categories = new ArrayList<>();
+    }
+
     public String getId() {
         return id;
     }

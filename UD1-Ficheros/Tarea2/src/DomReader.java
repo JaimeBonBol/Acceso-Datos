@@ -127,7 +127,7 @@ public class DomReader {
 
 
     /**
-     * Método para hacer un paseo de String a int seguro, ya que asegura devolver 0 si no hay cadena de texto.
+     * Método para hacer un parseo de String a int seguro, ya que asegura devolver 0 si no hay cadena de texto.
      * @param text
      * @return
      */
@@ -142,7 +142,7 @@ public class DomReader {
     }
 
     /**
-     * Método para hacer un paseo de String a double seguro, ya que asegura devolver 0.0 si no hay cadena de texto.
+     * Método para hacer un parseo de String a double seguro, ya que asegura devolver 0.0 si no hay cadena de texto.
      * @param text
      * @return
      */
