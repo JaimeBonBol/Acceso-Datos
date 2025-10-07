@@ -1,0 +1,4 @@
+1;Teclado;28.0
+2;Raton;16.0
+3;Monitor;220.0
+4;TV;538.0

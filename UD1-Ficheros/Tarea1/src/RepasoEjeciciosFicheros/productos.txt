@@ -1,0 +1,4 @@
+1;Teclado;25.5
+2;Raton;15.0
+3;Monitor;200.0
+4;TV;489.99
