@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fdcfed9-ecf7-4493-b218-ee097cbf1c55" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ExamenUd01/ExamenUd01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tarea1/src/RepasoEjeciciosFicheros/RepasoEjeciciosFicheros.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UD1-Ficheros.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UD1-Ficheros.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExamenUd01/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExamenUd01/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExamenUd01/Alumnos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExamenUd01/Alumnos.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExamenUd01/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExamenUd01/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -62,7 +62,11 @@ public class Main {
 
                     String id = buscarAlumno(nombre, apellidos, rutaArchivo);
 
-                    addNotas(id, rutaArchivoNotas);
+                    if (id.equals("")){
+                        System.out.println("No hay alumno");
+                    }else {
+                        addNotas(id, rutaArchivoNotas);
+                    }
 
                     break;
 
